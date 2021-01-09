@@ -1,0 +1,23 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "1.0.0",
+  "description": "hexlet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olekhova/layout-designer-project-lvl2.git"
+  },
+  "author": "lyubov_olekhova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olekhova/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/olekhova/layout-designer-project-lvl2#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
