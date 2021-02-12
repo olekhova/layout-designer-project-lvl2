@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+
+  color: $darkgray;
+  font-weight: normal;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  line-height: 1.5;
+
+  background-color: $black;
+}
+
+a {
+  color: $darkgray;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    color: $white;
+
+    cursor: pointer;
+  }
+}
+
+.white {
+  color: $white;
+}
+
+.background-green {
+  background-color: $green;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-x {
+  overflow-x: hidden;
+}
+
+.sr-only {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+}

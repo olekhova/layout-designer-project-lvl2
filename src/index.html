@@ -4,8 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>layout-designer-project-lvl2_lyubov_olekhova</title>
+  <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-  
+  <html>
+  <header class="relative container">
+    <div class="overflow-x menu row">
+        <div class="logo row white">
+          <img src="./images/logo.svg" alt="логотип" class="mr-16">
+          <p class="white mr-5">Music Box</p>
+        </div>
+        <!-- /.logo -->
+        <nav class="row header-nav">
+          <a href="#" class="mr-1">главная</a>
+          <a href="#" class="mr-1">каталог</a>
+          <a href="#" class="mr-1">исполнители</a>
+          <a href="#">контакты</a>
+        </nav>
+        <form action="#">
+          <label for="header_search" class="sr-only"></label>
+          <input type="text" id="header_search" placeholder="поиск.." class="header-input white">
+        </form>
+    </div>
+  </header>
+  <main>
+    <section id="page-description" class="page-description container pt-11 pb-11 relative">
+      <h1 class="">
+        oнлайн музыка где угодно
+      </h1>
+      <h2>
+        без ограничений
+      </h2>
+      <p class="ta-center white">
+        Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки
+      </p>
+      <form action="#" class="row">
+        <label for="name" class="sr-only">Имя</label>
+        <input type="text" id="name" placeholder="Имя">
+        <label for="Email" class="sr-only">Email</label>
+        <input type="text" placeholder="Email">
+        <button class="background-green white col-100">Получить доступ</button>
+      </form>
+
+    </section>
+    <!-- /.container -->
+  </main>
+  </html>
 </body>
 </html>

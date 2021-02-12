@@ -1,0 +1,46 @@
+.menu {
+  position: absolute;
+  top: 25px;
+  left: 0;
+
+  z-index: 10;
+
+  width: 100%;
+
+  margin: auto;
+
+  font-size: 11px;
+  text-transform: uppercase;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  nav {
+    flex-grow: 1;
+    justify-content: left;
+  }
+
+  input {
+    width: 13.7rem;
+    height: 25px;
+    padding-left: 10px;
+
+    font-weight: normal;
+    font-size: 13.3px;
+    font-style: normal;
+    line-height: 1.2rem;
+
+    background: $dark;
+    border: solid 1px $dark;
+    border-radius: 50px;
+  }
+
+  &::placeholder {
+    color: #757575;
+    text-transform: uppercase;
+
+    opacity: 0.2;
+  }
+}
