@@ -14,10 +14,12 @@
   /* header */
   h1 {
     font-size: 30px;
+    line-height: 45px;
   }
 
   h2 {
     font-size: 18px;
+    line-height: 27px;
   }
 
   .menu {
@@ -28,6 +30,7 @@
 
     form {
       align-self: stretch;
+      max-width: 374px;
     }
 
     input {
