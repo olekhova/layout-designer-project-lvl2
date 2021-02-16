@@ -1,0 +1,27 @@
+.btn {
+  padding: 20px 0;
+
+  text-transform: uppercase;
+
+  border-radius: 5px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-1 {
+  border: 1px solid $white
+}
+
+.white {
+  color: $white;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-transparent {
+  background: transparent;
+}

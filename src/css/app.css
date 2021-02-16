@@ -34,6 +34,67 @@ body {
   background-color: #08020d;
 }
 
+h1 {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  font-style: normal;
+  line-height: 90px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  font-style: normal;
+  line-height: 57px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tz-1 {
+  font-weight: normal;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.tz-3 {
+  font-weight: normal;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.tz-7 {
+  font-weight: normal;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 150%;
+}
+
+.t-small {
+  font-weight: normal;
+  font-size: 12.8px;
+  font-style: normal;
+  line-height: 150%;
+}
+
 a {
   color: #cacaca;
   font-weight: bold;
@@ -42,14 +103,6 @@ a {
 a:hover {
   color: #fff;
   cursor: pointer;
-}
-
-.white {
-  color: #fff;
-}
-
-.background-green {
-  background-color: #34c176;
 }
 
 .relative {
@@ -86,12 +139,36 @@ a:hover {
   flex-basis: 100%;
 }
 
+.col-30 {
+  flex-basis: 30%;
+}
+
+.db {
+  display: block;
+}
+
 .ta-center {
   text-align: center;
 }
 
 .m-0 {
   margin: 0;
+}
+
+.mt-22 {
+  margin-top: 1.222222rem;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-64 {
+  margin-top: 3.555556rem;
+}
+
+.mt-200 {
+  margin-top: 11.111111rem;
 }
 
 .mr-1 {
@@ -106,12 +183,62 @@ a:hover {
   margin-right: 16px;
 }
 
+.mb-50 {
+  margin-bottom: 2.77rem;
+}
+
+.mb-64 {
+  margin-bottom: 3.555556rem;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-100 {
+  padding-top: 5.55rem;
+}
+
 .pt-11 {
   padding-top: 11.11rem;
 }
 
 .pb-11 {
   padding-bottom: 11.11rem;
+}
+
+.pl-1 {
+  padding-left: 1.5rem;
+}
+
+.pr-1 {
+  padding-right: 1.5rem;
+}
+
+.btn {
+  padding: 20px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-1 {
+  border: 1px solid #fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-green {
+  background-color: #34c176;
+}
+
+.bg-transparent {
+  background: transparent;
 }
 
 .menu {
@@ -161,15 +288,9 @@ a:hover {
 }
 
 .page-description {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.jpg");
   background-position: center;
   background-size: cover;
-}
-.page-description p {
-  font-weight: normal;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 150%;
 }
 .page-description form {
   max-width: 31.666667rem;
@@ -185,7 +306,6 @@ a:hover {
   font-size: 14px;
   font-style: normal;
   line-height: 0.888889rem;
-  background: transparent;
   border: 2px solid #cacaca;
   border-radius: 3px;
 }
@@ -198,36 +318,36 @@ a:hover {
 .page-description input::placeholder {
   color: #fff;
 }
-.page-description button {
-  padding: 20px 0;
-  font-weight: normal;
-  font-size: 13.3px;
-  font-style: normal;
-  line-height: 15px;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 5px;
+
+.pricing-item {
+  height: 615px;
+  border-radius: 1rem;
 }
 
-h1 {
-  margin: 0;
-  color: #fff;
-  font-weight: bold;
-  font-size: 60px;
-  font-style: normal;
-  line-height: 5rem;
-  text-align: center;
-  text-transform: uppercase;
+.bg-free {
+  background-image: url("../images/subscribe_1.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-h2 {
-  margin: 0;
-  color: #fff;
-  font-weight: bold;
-  font-size: 38px;
-  font-style: normal;
-  line-height: 3.16rem;
-  text-align: center;
+.bg-standart {
+  background-image: url("../images/subscribe_2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-value {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rub {
   text-transform: uppercase;
 }
 
@@ -241,15 +361,17 @@ h2 {
   }
 }
 @media screen and (max-width: 992px) {
-  /* header */
   h1 {
     font-size: 30px;
+    line-height: 45px;
   }
 
   h2 {
     font-size: 18px;
+    line-height: 27px;
   }
 
+  /* header */
   .menu {
     flex-direction: column;
     align-items: start;
@@ -287,5 +409,15 @@ h2 {
   /* page-description */
   .page-description {
     padding-top: 248px;
+  }
+
+  /* page-pricing */
+  .pricing-items {
+    flex-direction: column;
+  }
+
+  .pricing-item {
+    height: 595px;
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=app.css.map */

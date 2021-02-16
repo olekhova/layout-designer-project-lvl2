@@ -1,0 +1,32 @@
+.pricing-item {
+  height: 615px;
+  border-radius: 1rem;
+}
+
+.bg-free {
+  background-image: url('../images/subscribe_1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url('../images/subscribe_2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url('../images/subscribe_3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-value {
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.rub {
+  text-transform: uppercase;
+}
