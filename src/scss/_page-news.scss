@@ -1,0 +1,12 @@
+.news-date {
+  &::before {
+    margin-right: 16px;
+    margin-left: 35px;
+
+    color: $orange;
+
+    text-transform: uppercase;
+
+    content: 'MUSIC BOX';
+  }
+}

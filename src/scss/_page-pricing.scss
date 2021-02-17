@@ -1,5 +1,6 @@
 .pricing-item {
-  height: 615px;
+  height: 34.166667rem;
+
   border-radius: 1rem;
 }
 
@@ -22,11 +23,15 @@
 }
 
 .pricing-value {
-  justify-content: center;
   align-items: flex-start;
-  
+  justify-content: center;
+}
+
+.price {
+  line-height: 1em;
 }
 
 .rub {
+  line-height: 1em;
   text-transform: uppercase;
 }

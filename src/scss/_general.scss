@@ -57,6 +57,11 @@ h3 {
   text-transform: uppercase;
 }
 
+.h3-capitalize {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
 .tz-1 {
   font-weight: normal;
   font-size: 16px;
@@ -78,7 +83,7 @@ h3 {
   line-height: 150%;
 }
 
-.t-small {
+.tz-small {
   font-weight: normal;
   font-size: 12.8px;
   font-style: normal;
