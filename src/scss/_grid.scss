@@ -30,12 +30,16 @@
   width: 100%;
 }
 
+.max-width-135 {
+  max-width: 7.5rem;
+}
+
 .max-width-575 {
   max-width: 31.944444rem;
 }
 
-.max-width-135 {
-  max-width: 7.5rem;
+.max-width-600 {
+  max-width: 33.333333rem;
 }
 
 .db {
@@ -96,6 +100,10 @@
 
 .mb-64 {
   margin-bottom: 3.555556rem;
+}
+
+.mb-100 {
+  margin-bottom: 5.55rem;
 }
 
 .pt-100 {

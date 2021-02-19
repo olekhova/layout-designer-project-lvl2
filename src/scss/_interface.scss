@@ -6,6 +6,12 @@
   border-radius: 5px;
 }
 
+.btn-app {
+  padding: 16px 40px;
+
+  border-radius: 32px;
+}
+
 .border-none {
   border: none;
 }
@@ -24,6 +30,10 @@
 
 .bg-green {
   background-color: $green;
+}
+
+.bg-red {
+  background-color: $red;
 }
 
 .bg-transparent {
