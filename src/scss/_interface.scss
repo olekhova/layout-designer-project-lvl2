@@ -24,8 +24,20 @@
   border: 1px solid $darkgray;
 }
 
+.border-gray {
+  border: 1px solid $gray;
+}
+
 .white {
   color: $white;
+}
+
+.gray {
+  color: $gray;
+}
+
+.darkgray {
+  color: $darkgray;
 }
 
 .bg-green {
@@ -38,4 +50,12 @@
 
 .bg-transparent {
   background: transparent;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, $purple 32.83%, $red 81.56%);
+}
+
+.list-style-none {
+  list-style-type: none;
 }
