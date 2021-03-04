@@ -1,4 +1,4 @@
-.page-description {
+.page-description-index {
   background-image: url('../images/banner.jpg');
   background-position: center;
   background-size: cover;
@@ -28,4 +28,14 @@
       color: $white;
     }
   }
+}
+
+.page-description-artist {
+  background-image: url('../images/Morten Harket.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.filter {
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }

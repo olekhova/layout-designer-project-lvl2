@@ -4,8 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>layout-designer-project-lvl2_lyubov_olekhova</title>
+  <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-  
+    <header class="relative container">
+      <div class="overflow-x menu row">
+        <div class="logo row white">
+          <img src="./images/logo.svg" alt="логотип" class="mr-16">
+          <p class="white mr-5">Music Box</p>
+        </div>
+        <!-- /.logo -->
+        <nav class="row header-nav">
+          <a href="#" class="mr-24 darkgray">главная</a>
+          <a href="#" class="mr-24 darkgray">каталог</a>
+          <a href="#" class="mr-24 darkgray">исполнители</a>
+          <a href="#" class="darkgray">контакты</a>
+        </nav>
+        <form action="#">
+          <label for="header_search" class="sr-only"></label>
+          <input type="text" id="header_search" placeholder="поиск.." class="header-input white">
+        </form>
+      </div>
+    </header>
+    <main>
+      <section id="page-describtion" class="page-description-artist pt-11 pb-11 relative bg-white">
+        <div class="container">
+          <h1 class="ta-left">
+            Morten Harket
+          </h1>
+          <p class="tz-1 white">
+            24 875 поклонников
+          </p>
+          <div class="row jc-start mt-48 description-artist-buttons">
+            <button class="row jc-start white tz-small btn bg-purple border-none filter max-width-200 mr-24 pl-20">
+              <img src="images/play-button.svg" alt="play-button" class="icon white mr-18">
+              МИКС
+            </button>
+            <button class="row jc-start white tz-small btn bg-red border-none filter max-width-200 mr-24 pl-20">
+              <img src="images/heart.svg" alt="play-button" class="icon white mr-18">
+              В ИЗБРАННОЕ
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
