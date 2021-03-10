@@ -34,6 +34,10 @@
   flex-basis: 30%;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -48,6 +52,10 @@
 
 .max-width-200 {
   min-width: 11.111111rem;
+}
+
+.max-width-550 {
+  min-width: 30.555556rem;
 }
 
 .max-width-575 {
@@ -80,6 +88,10 @@
 
 .mt-22 {
   margin-top: 1.222222rem;
+}
+
+.mt-25 {
+  margin-top: 1.388889rem;
 }
 
 .mt-30 {
@@ -120,6 +132,10 @@
 
 .mr-24 {
   margin-right: 1.33rem;
+}
+
+.mr-25 {
+  margin-right: 1.388889rem;
 }
 
 .mb-50 {
