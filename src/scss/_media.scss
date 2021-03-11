@@ -32,6 +32,11 @@
     max-width: 400px;
     margin: auto;
   }
+
+  /* page-popular-track */
+  .popular-track:not(:first-child) {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -153,5 +158,19 @@
   .description-artist-buttons {
     flex-direction: column;
     align-items: start;
+  }
+
+  /* page-discography */
+  .discography-item {
+    max-width: 138px;
+
+    &:not(:nth-child(-n+2)) {
+      margin-top: 25px;
+    }
+  }
+
+  .discography-image {
+    width: 137px;
+    height: 137px;
   }
 }

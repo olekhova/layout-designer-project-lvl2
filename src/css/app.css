@@ -79,6 +79,10 @@ h4 {
   text-transform: uppercase;
 }
 
+.h4-capitalize {
+  text-transform: capitalize;
+}
+
 .tz-1 {
   font-weight: normal;
   font-size: 16px;
@@ -280,6 +284,10 @@ a:hover {
 
 .mr-25 {
   margin-right: 1.388889rem;
+}
+
+.mr-50 {
+  margin-right: 2.77rem;
 }
 
 .mb-50 {
@@ -561,6 +569,11 @@ a:hover {
   height: 3.055556rem;
 }
 
+.discography-image {
+  width: 13.888889rem;
+  height: 13.888889rem;
+}
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 14px;
@@ -592,6 +605,11 @@ a:hover {
   .news-foto-even {
     max-width: 400px;
     margin: auto;
+  }
+
+  /* page-popular-track */
+  .popular-track:not(:first-child) {
+    margin-top: 25px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -705,5 +723,18 @@ a:hover {
   .description-artist-buttons {
     flex-direction: column;
     align-items: start;
+  }
+
+  /* page-discography */
+  .discography-item {
+    max-width: 138px;
+  }
+  .discography-item:not(:nth-child(-n+2)) {
+    margin-top: 25px;
+  }
+
+  .discography-image {
+    width: 137px;
+    height: 137px;
   }
 }/*# sourceMappingURL=app.css.map */
