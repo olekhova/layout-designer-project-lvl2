@@ -173,4 +173,18 @@
     width: 137px;
     height: 137px;
   }
+
+  /* page-similar */
+  .similar-item {
+    max-width: 138px;
+
+    &:not(:nth-child(-n+2)) {
+      margin-top: 25px;
+    }
+  }
+
+  .similar-image {
+    width: 137px;
+    height: 137px;
+  }
 }

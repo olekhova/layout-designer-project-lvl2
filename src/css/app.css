@@ -574,6 +574,12 @@ a:hover {
   height: 13.888889rem;
 }
 
+.similar-image {
+  width: 13.888889rem;
+  height: 13.888889rem;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 14px;
@@ -734,6 +740,19 @@ a:hover {
   }
 
   .discography-image {
+    width: 137px;
+    height: 137px;
+  }
+
+  /* page-similar */
+  .similar-item {
+    max-width: 138px;
+  }
+  .similar-item:not(:nth-child(-n+2)) {
+    margin-top: 25px;
+  }
+
+  .similar-image {
     width: 137px;
     height: 137px;
   }
