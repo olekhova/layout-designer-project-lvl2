@@ -50,6 +50,12 @@
     line-height: 27px;
   }
 
+  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   /* header */
   .menu {
     flex-direction: column;
@@ -103,6 +109,7 @@
 }
 
 @media screen and (max-width: 570px) {
+
   /* header */
   .header-nav {
     flex-direction: column;
