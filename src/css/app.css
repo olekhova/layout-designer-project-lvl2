@@ -449,6 +449,9 @@ a:hover {
   flex-grow: 1;
   justify-content: left;
 }
+.menu nav li {
+  list-style-type: none;
+}
 .menu input {
   width: 13.7rem;
   height: 25px;
@@ -656,6 +659,11 @@ a:hover {
 
   .header-nav {
     margin-bottom: 23px;
+  }
+
+  /* page-description */
+  .page-description-index input {
+    width: 100%;
   }
 
   /* page-news */
