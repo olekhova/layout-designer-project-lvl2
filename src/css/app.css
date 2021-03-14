@@ -561,7 +561,7 @@ a:hover {
 
 .news-date::before {
   margin-right: 16px;
-  margin-left: 35px;
+  margin-left: 16px;
   color: #f89202;
   text-transform: uppercase;
   content: "MUSIC BOX";
