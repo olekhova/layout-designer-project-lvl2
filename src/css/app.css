@@ -559,12 +559,9 @@ a:hover {
   text-transform: uppercase;
 }
 
-.news-date::before {
-  margin-right: 16px;
-  margin-left: 16px;
+.music-box {
   color: #f89202;
   text-transform: uppercase;
-  content: "MUSIC BOX";
 }
 
 .track-image {
