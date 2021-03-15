@@ -198,12 +198,12 @@ a:hover {
   width: 30.555556rem;
 }
 
-.max-width-20 {
-  max-width: 20px;
+.width-135 {
+  width: 135px;
 }
 
-.max-width-135 {
-  max-width: 7.5rem;
+.max-width-20 {
+  max-width: 20px;
 }
 
 .max-width-575 {
@@ -361,6 +361,8 @@ a:hover {
 .btn {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-transform: uppercase;
   border-radius: 5px;
 }
@@ -630,7 +632,6 @@ a:hover {
   }
 
   h3 {
-    font-weight: bold;
     font-size: 16px;
     line-height: 24px;
   }
