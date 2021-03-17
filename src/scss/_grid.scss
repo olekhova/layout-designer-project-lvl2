@@ -66,6 +66,14 @@
   max-width: 33.333333rem;
 }
 
+.min-width-270 {
+  min-width: 270px;
+}
+
+.min-width-50 {
+  min-height: 50px;
+}
+
 .db {
   display: block;
 }
@@ -140,6 +148,10 @@
 
 .mr-50 {
   margin-right: 2.77rem;
+}
+
+.mb-1_5rem {
+  margin-bottom: 1.5rem;
 }
 
 .mb-50 {
