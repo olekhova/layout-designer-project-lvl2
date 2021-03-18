@@ -213,7 +213,7 @@ a:hover {
   min-width: 270px;
 }
 
-.min-width-50 {
+.min-height-50 {
   min-height: 50px;
 }
 
@@ -247,6 +247,10 @@ a:hover {
 
 .mt-30 {
   margin-top: 1.666667rem;
+}
+
+.mt-32 {
+  margin-top: 1.777778rem;
 }
 
 .mt-40 {
@@ -293,8 +297,12 @@ a:hover {
   margin-right: 2.77rem;
 }
 
-.mb-1_5rem {
-  margin-bottom: 1.5rem;
+.mr-m15 {
+  margin-right: -15px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-50 {
@@ -447,7 +455,7 @@ a:hover {
 
 .menu {
   position: absolute;
-  top: 25px;
+  top: 17px;
   left: 0;
   z-index: 10;
   width: 100%;
@@ -461,7 +469,6 @@ a:hover {
 }
 .menu nav {
   flex-grow: 1;
-  justify-content: left;
 }
 .menu nav li {
   list-style-type: none;
@@ -507,7 +514,7 @@ a:hover {
   font-weight: bold;
   font-size: 14px;
   font-style: normal;
-  line-height: 0.888889rem;
+  line-height: 16px;
   border: 2px solid #cacaca;
   border-radius: 3px;
 }
@@ -603,8 +610,12 @@ footer a {
     padding-left: 20px;
   }
 
-  .page-description input {
+  /* page-description */
+  .page-description-index input {
     flex-basis: 100%;
+  }
+  .page-description-index p {
+    margin-top: 17px;
   }
 
   /* page-news */
@@ -655,6 +666,7 @@ footer a {
   .menu form {
     align-self: stretch;
     max-width: 374px;
+    margin-top: 5px;
   }
   .menu input {
     width: 100%;
@@ -665,12 +677,7 @@ footer a {
   }
 
   .header-nav {
-    margin-bottom: 23px;
-  }
-
-  /* page-description */
-  .page-description-index input {
-    width: 100%;
+    margin-top: -17px;
   }
 
   /* page-news */
@@ -707,7 +714,7 @@ footer a {
   }
 
   /* page-description */
-  .page-description {
+  .page-description-index {
     padding-top: 248px;
   }
 

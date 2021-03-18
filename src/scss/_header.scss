@@ -1,6 +1,6 @@
 .menu {
   position: absolute;
-  top: 25px;
+  top: 17px;
   left: 0;
 
   z-index: 10;
@@ -19,7 +19,6 @@
 
   nav {
     flex-grow: 1;
-    justify-content: left;
 
     li {
       list-style-type: none;
