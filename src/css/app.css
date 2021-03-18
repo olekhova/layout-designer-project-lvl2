@@ -173,10 +173,6 @@ a:hover {
   flex-basis: 50%;
 }
 
-.col-30 {
-  flex-basis: 30%;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -199,6 +195,10 @@ a:hover {
 
 .max-width-20 {
   max-width: 20px;
+}
+
+.max-width-367 {
+  max-width: 20.388889rem;
 }
 
 .max-width-575 {
@@ -233,6 +233,10 @@ a:hover {
   margin: 0;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-20 {
   margin-top: 1.111111rem;
 }
@@ -254,7 +258,7 @@ a:hover {
 }
 
 .mt-40 {
-  margin-top: 2.222222rem;
+  margin-top: 40px;
 }
 
 .mt-48 {
@@ -539,7 +543,7 @@ a:hover {
 }
 
 .pricing-item {
-  height: 34.166667rem;
+  height: 619px;
   border-radius: 1rem;
 }
 
@@ -722,13 +726,27 @@ footer a {
   }
 
   /* page-pricing */
+  .page-pricing h2 {
+    margin-top: 22px;
+  }
+
   .pricing-items {
     flex-direction: column;
+    margin-top: -40px;
   }
 
   .pricing-item {
+    max-width: 99%;
     height: 595px;
     margin-top: 50px;
+  }
+
+  .pricing-value {
+    margin-top: 198px;
+  }
+
+  .pricing-footer {
+    margin-top: 64px;
   }
 
   /* footer */

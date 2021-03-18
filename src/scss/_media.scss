@@ -128,13 +128,30 @@
   }
 
   /* page-pricing */
+  .page-pricing {
+    h2 {
+      margin-top: 22px;
+    }
+  }
+
   .pricing-items {
     flex-direction: column;
+
+    margin-top: -40px;
   }
 
   .pricing-item {
+    max-width: 99%;
     height: 595px;
     margin-top: 50px;
+  }
+
+  .pricing-value {
+    margin-top: 198px;
+  }
+
+  .pricing-footer {
+    margin-top: 64px;
   }
 
   /* footer */
