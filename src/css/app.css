@@ -142,7 +142,7 @@ a:hover {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -305,12 +305,32 @@ a:hover {
   margin-right: -15px;
 }
 
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
 .mb-24 {
   margin-bottom: 24px;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
 .mb-50 {
   margin-bottom: 2.77rem;
+}
+
+.mb-58 {
+  margin-bottom: 58px;
 }
 
 .mb-64 {
