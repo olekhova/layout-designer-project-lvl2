@@ -138,10 +138,6 @@
   margin-top: 64px;
 }
 
-.mt-56 {
-  margin-top: 56px;
-}
-
 .mt-200 {
   margin-top: 11.111111rem;
 }
@@ -246,8 +242,12 @@
   padding: 0;
 }
 
-.pt-60 {
-  padding-top: 60px;
+.pt-2rem {
+  padding-top: 2rem;
+}
+
+.pt-3rem {
+  padding-top: 3rem;
 }
 
 .pt-100 {
@@ -256,10 +256,6 @@
 
 .pt-200 {
   padding-top: 200px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
 }
 
 .pb-200 {
@@ -276,4 +272,12 @@
 
 .pl-20 {
   padding-left: 1.111111rem;
+}
+
+.pb-2rem {
+  padding-bottom: 2rem;
+}
+
+.pb-3rem {
+  padding-bottom: 3rem;
 }
