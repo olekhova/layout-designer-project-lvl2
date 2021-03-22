@@ -96,27 +96,56 @@
   /* page-news */
   .news-item {
     flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .news-body {
+    margin-top: 43px;
+
+    a {
+      margin-top: 34px;
+    }
+
+    &-text {
+      margin-top: 18px;
+    }
   }
 
   .news-body-even {
     order: 2;
+    margin-top: 44px;
+
+    &-text {
+      margin-top: 16px;
+    }
   }
 
   .news-foto-even {
     order: 1;
+    margin-top: 6px;
   }
 
   /* page-app */
+  .page-app {
+    h2 {
+      margin-top: 22px;
+    }
+  }
+
   .app-content {
     flex-direction: column;
   }
 
   .app-info {
     order: 2;
+    margin-top: -40px;
   }
 
   .app-image {
     order: 1;
+
+    width: 370px;
+    margin-left: 0;
   }
 }
 
@@ -148,10 +177,6 @@
 
   .pricing-value {
     margin-top: 198px;
-  }
-
-  .pricing-footer {
-    margin-top: 64px;
   }
 
   /* footer */

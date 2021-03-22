@@ -142,10 +142,8 @@ a:hover {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1200px;
   margin: auto;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .row {
@@ -267,8 +265,12 @@ a:hover {
   margin-top: 2.666667rem;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-64 {
-  margin-top: 3.555556rem;
+  margin-top: 64px;
 }
 
 .mt-74 {
@@ -277,6 +279,10 @@ a:hover {
 
 .mt-200 {
   margin-top: 11.111111rem;
+}
+
+.mt-m40 {
+  margin-top: -40px;
 }
 
 .mr-5 {
@@ -351,6 +357,10 @@ a:hover {
   margin-left: 3.555556rem;
 }
 
+.ml-145 {
+  margin-left: 145px;
+}
+
 .ml-120 {
   margin-left: 6.666667rem;
 }
@@ -414,7 +424,9 @@ a:hover {
 }
 
 .btn-app {
+  width: 131px;
   padding: 16px 40px;
+  text-transform: none;
   border-radius: 32px;
 }
 
@@ -606,6 +618,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.app-image {
+  width: 333px;
+}
+
 .track-image {
   width: 55px;
   height: 55px;
@@ -717,27 +733,50 @@ footer a {
   /* page-news */
   .news-item {
     flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .news-body {
+    margin-top: 43px;
+  }
+  .news-body a {
+    margin-top: 34px;
+  }
+  .news-body-text {
+    margin-top: 18px;
   }
 
   .news-body-even {
     order: 2;
+    margin-top: 44px;
+  }
+  .news-body-even-text {
+    margin-top: 16px;
   }
 
   .news-foto-even {
     order: 1;
+    margin-top: 6px;
   }
 
   /* page-app */
+  .page-app h2 {
+    margin-top: 22px;
+  }
+
   .app-content {
     flex-direction: column;
   }
 
   .app-info {
     order: 2;
+    margin-top: -40px;
   }
 
   .app-image {
+    width: 370px;
     order: 1;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 570px) {
@@ -765,10 +804,6 @@ footer a {
 
   .pricing-value {
     margin-top: 198px;
-  }
-
-  .pricing-footer {
-    margin-top: 64px;
   }
 
   /* footer */
