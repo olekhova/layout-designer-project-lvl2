@@ -94,6 +94,12 @@
   }
 
   /* page-news */
+  .page-news {
+    h2 {
+      margin-top: 20px;
+    }
+  }
+  
   .news-item {
     flex-direction: column;
     margin-top: 50px;

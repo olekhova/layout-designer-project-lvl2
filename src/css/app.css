@@ -731,6 +731,10 @@ footer a {
   }
 
   /* page-news */
+  .page-news h2 {
+    margin-top: 20px;
+  }
+
   .news-item {
     flex-direction: column;
     margin-top: 50px;
@@ -774,8 +778,8 @@ footer a {
   }
 
   .app-image {
-    width: 370px;
     order: 1;
+    width: 370px;
     margin-left: 0;
   }
 }
