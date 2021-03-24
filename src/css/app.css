@@ -798,7 +798,11 @@ footer nav {
 
   .app-info {
     order: 2;
-    margin-top: -40px;
+    margin-top: 17px;
+  }
+
+  .btn-app {
+    margin-top: 17px;
   }
 
   .app-image {
