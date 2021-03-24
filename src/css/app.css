@@ -400,7 +400,7 @@ a:hover {
 }
 
 .pt-100 {
-  padding-top: 5.555556rem;
+  padding-top: 100px;
 }
 
 .pt-200 {
@@ -809,7 +809,7 @@ footer nav {
 
   .app-image {
     order: 1;
-    margin-left: 0;
+    margin: auto;
   }
 }
 @media screen and (max-width: 570px) {
@@ -843,17 +843,22 @@ footer nav {
   .footer-menu {
     flex-direction: column;
     align-items: start;
+    padding-top: 33px;
   }
   .footer-menu-item {
-    margin-top: 1.666667rem;
+    flex-basis: 100%;
+    margin-top: 31px;
     margin-left: 0;
   }
 
   .footer-links {
     flex-direction: column;
     align-items: start;
+    padding-top: 24px;
   }
   .footer-links a {
+    flex-basis: 100%;
+    margin-top: 17px;
     margin-left: 0;
   }
 
