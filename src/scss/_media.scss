@@ -132,12 +132,6 @@
   }
 
   /* page-app */
-  .page-app {
-    h2 {
-      margin-top: 22px;
-    }
-  }
-
   .app-content {
     flex-direction: column;
   }
@@ -151,6 +145,7 @@
     order: 1;
 
     margin: auto;
+    margin-top: 50px;
   }
 }
 
@@ -159,13 +154,6 @@
   .header-nav {
     flex-direction: column;
     align-items: start;
-  }
-
-  /* page-pricing */
-  .page-pricing {
-    h2 {
-      margin-top: 22px;
-    }
   }
 
   .pricing-items {
@@ -191,7 +179,7 @@
     padding-top: 33px;
 
     &-item {
-      flex-basis: 100%;
+      width: 375px;
       margin-top: 31px;
       margin-left: 0;
     }
@@ -203,7 +191,7 @@
     padding-top: 24px;
 
     a {
-      flex-basis: 100%;
+      width: 375px;
       margin-top: 17px;
       margin-left: 0;
     }

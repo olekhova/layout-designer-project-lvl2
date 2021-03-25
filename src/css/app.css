@@ -794,10 +794,6 @@ footer nav {
   }
 
   /* page-app */
-  .page-app h2 {
-    margin-top: 22px;
-  }
-
   .app-content {
     flex-direction: column;
   }
@@ -810,6 +806,7 @@ footer nav {
   .app-image {
     order: 1;
     margin: auto;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -817,11 +814,6 @@ footer nav {
   .header-nav {
     flex-direction: column;
     align-items: start;
-  }
-
-  /* page-pricing */
-  .page-pricing h2 {
-    margin-top: 22px;
   }
 
   .pricing-items {
@@ -846,7 +838,7 @@ footer nav {
     padding-top: 33px;
   }
   .footer-menu-item {
-    flex-basis: 100%;
+    width: 375px;
     margin-top: 31px;
     margin-left: 0;
   }
@@ -857,7 +849,7 @@ footer nav {
     padding-top: 24px;
   }
   .footer-links a {
-    flex-basis: 100%;
+    width: 375px;
     margin-top: 17px;
     margin-left: 0;
   }
