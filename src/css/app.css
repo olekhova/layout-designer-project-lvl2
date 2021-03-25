@@ -839,7 +839,7 @@ footer nav {
   .footer-menu {
     flex-direction: column;
     align-items: start;
-    padding-bottom: 35px;
+    padding-bottom: 39px;
   }
   .footer-menu-item {
     flex-basis: auto;
@@ -857,7 +857,7 @@ footer nav {
   .footer-links {
     flex-direction: column;
     align-items: start;
-    padding-top: 17px;
+    padding-top: 18px;
     padding-bottom: 44px;
   }
   .footer-links a {
