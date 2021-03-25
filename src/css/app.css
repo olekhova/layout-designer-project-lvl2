@@ -836,10 +836,15 @@ footer nav {
   }
 
   /* footer */
+  footer hr {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .footer-menu {
     flex-direction: column;
     align-items: start;
-    padding-bottom: 39px;
+    padding-bottom: 46px;
   }
   .footer-menu-item {
     flex-basis: auto;
@@ -857,13 +862,16 @@ footer nav {
   .footer-links {
     flex-direction: column;
     align-items: start;
-    padding-top: 17px;
+    padding-top: 40px;
     padding-bottom: 44px;
   }
   .footer-links a {
     width: 358px;
     margin-top: 16px;
     margin-left: 0;
+  }
+  .footer-links a:first-child {
+    margin-top: 0;
   }
 
   /* page-description-artist */
