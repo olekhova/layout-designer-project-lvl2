@@ -134,6 +134,10 @@
   /* page-app */
   .app-content {
     flex-direction: column;
+
+    a {
+      display: inline-block;
+    }
   }
 
   .app-info {
@@ -145,7 +149,7 @@
     order: 1;
 
     margin: auto;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 }
 
@@ -179,6 +183,7 @@
     padding-top: 33px;
 
     &-item {
+      flex-basis: auto;
       width: 375px;
       margin-top: 31px;
       margin-left: 0;

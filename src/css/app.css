@@ -797,6 +797,9 @@ footer nav {
   .app-content {
     flex-direction: column;
   }
+  .app-content a {
+    display: inline-block;
+  }
 
   .app-info {
     order: 2;
@@ -806,7 +809,7 @@ footer nav {
   .app-image {
     order: 1;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -838,6 +841,7 @@ footer nav {
     padding-top: 33px;
   }
   .footer-menu-item {
+    flex-basis: auto;
     width: 375px;
     margin-top: 31px;
     margin-left: 0;
