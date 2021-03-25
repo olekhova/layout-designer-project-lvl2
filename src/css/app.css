@@ -843,10 +843,9 @@ footer nav {
   }
   .footer-menu-item {
     flex-basis: auto;
-    width: 375px;
+    width: 374px;
     margin-top: 0;
     margin-bottom: 31px;
-    margin-left: 0;
   }
   .footer-menu-item ul {
     margin-bottom: 0;
@@ -855,11 +854,11 @@ footer nav {
   .footer-links {
     flex-direction: column;
     align-items: start;
-    padding-top: 13px;
-    padding-bottom: 48px;
+    padding-top: 17px;
+    padding-bottom: 44px;
   }
   .footer-links a {
-    width: 375px;
+    width: 374px;
     margin-top: 17px;
     margin-left: 0;
   }
