@@ -239,6 +239,10 @@ a:hover {
   margin-top: 0;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -665,6 +669,7 @@ a:hover {
 .similar-image {
   width: 13.888889rem;
   height: 13.888889rem;
+  overflow: hidden;
   border-radius: 50%;
 }
 
