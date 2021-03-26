@@ -216,6 +216,11 @@
 
   .item-contacts {
     margin-top: 16px;
+
+    a {
+      display: inline-block;
+      padding-top: 0;
+    }
   }
 
   .footer-links {

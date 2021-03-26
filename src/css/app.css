@@ -883,6 +883,10 @@ footer nav {
   .item-contacts {
     margin-top: 16px;
   }
+  .item-contacts a {
+    display: inline-block;
+    padding-top: 0;
+  }
 
   .footer-links {
     flex-direction: column;
