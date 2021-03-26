@@ -320,11 +320,11 @@ a:hover {
 }
 
 .mr-25 {
-  margin-right: 1.388889rem;
+  margin-right: 25px;
 }
 
 .mr-50 {
-  margin-right: 2.77rem;
+  margin-right: 50px;
 }
 
 .mr-m15 {
@@ -829,7 +829,7 @@ footer nav {
     margin-top: 48px;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 550px) {
   /* header */
   .header-nav {
     flex-direction: column;
@@ -911,10 +911,17 @@ footer nav {
   .discography-item:not(:nth-child(-n+2)) {
     margin-top: 25px;
   }
+  .discography-item:nth-child(even) {
+    margin-right: 0;
+  }
 
   .discography-image {
     width: 137px;
     height: 137px;
+  }
+
+  .discography-info {
+    margin-top: 15px;
   }
 
   /* page-similar */

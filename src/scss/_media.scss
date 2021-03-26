@@ -159,7 +159,7 @@
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 550px) {
   /* header */
   .header-nav {
     flex-direction: column;
@@ -252,11 +252,19 @@
     &:not(:nth-child(-n+2)) {
       margin-top: 25px;
     }
+
+    &:nth-child(even) {
+      margin-right: 0;
+    }
   }
 
   .discography-image {
     width: 137px;
     height: 137px;
+  }
+
+  .discography-info {
+    margin-top: 15px;
   }
 
   /* page-similar */
