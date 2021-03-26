@@ -251,6 +251,10 @@ a:hover {
   margin-top: 15px;
 }
 
+.mt-18 {
+  margin-top: 18px;
+}
+
 .mt-20 {
   margin-top: 1.111111rem;
 }
@@ -928,6 +932,9 @@ footer nav {
   }
   .similar-item:not(:nth-child(-n+2)) {
     margin-top: 25px;
+  }
+  .similar-item:nth-child(even) {
+    margin-right: 0;
   }
 
   .similar-image {

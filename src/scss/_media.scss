@@ -274,6 +274,10 @@
     &:not(:nth-child(-n+2)) {
       margin-top: 25px;
     }
+
+    &:nth-child(even) {
+      margin-right: 0;
+    }
   }
 
   .similar-image {
