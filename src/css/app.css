@@ -886,6 +886,7 @@ footer nav {
   .item-contacts a {
     display: inline-block;
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .footer-email {
