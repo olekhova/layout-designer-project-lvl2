@@ -39,8 +39,12 @@
   }
 
   /* page-popular-track */
-  .popular-track:not(:first-child) {
-    margin-top: 25px;
+  .popular-track {
+    margin-right: 0;
+
+    &:not(:first-child) {
+      margin-top: 25px;
+    }
   }
 }
 
@@ -154,6 +158,7 @@
 }
 
 @media screen and (max-width: 570px) {
+
   /* header */
   .header-nav {
     flex-direction: column;

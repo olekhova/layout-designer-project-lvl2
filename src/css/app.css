@@ -272,7 +272,7 @@ a:hover {
 }
 
 .mt-48 {
-  margin-top: 2.666667rem;
+  margin-top: 48px;
 }
 
 .mt-50 {
@@ -493,10 +493,6 @@ a:hover {
   background-color: #95390c;
 }
 
-.bg-white {
-  background-color: #fff;
-}
-
 .bg-purple {
   background-color: #5328a1;
 }
@@ -710,6 +706,9 @@ footer nav {
   }
 
   /* page-popular-track */
+  .popular-track {
+    margin-right: 0;
+  }
   .popular-track:not(:first-child) {
     margin-top: 25px;
   }
