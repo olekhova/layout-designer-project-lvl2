@@ -888,9 +888,12 @@ footer nav {
     padding-top: 0;
   }
 
-  .footer-adress {
-    margin-top: 3px;
-    margin-bottom: 1px;
+  .footer-email {
+    margin-bottom: 3px;
+  }
+
+  .footer-tel {
+    margin-top: 1px;
   }
 
   .footer-links {
