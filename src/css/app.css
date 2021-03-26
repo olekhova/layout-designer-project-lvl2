@@ -873,10 +873,15 @@ footer nav {
     margin-left: 0;
   }
   .footer-menu-item ul {
+    margin-top: 15px;
     margin-bottom: 0;
   }
   .footer-menu-item img {
     vertical-align: middle;
+  }
+
+  .item-contacts {
+    margin-top: 16px;
   }
 
   .footer-links {
